@@ -86,7 +86,7 @@ Dự án này bao gồm việc thiết lập một pipeline dữ liệu với c�
 
 4. **Nhập Dữ Liệu Vào BigQuery**:
    - Tạo một bảng trong BigQuery.
-   !["create table bigquery](image/create_table_Bigquery.png)
+   !["create table bigquery](image/create_table_BigQuery.png)
 
    - Import dữ liệu từ bucket GCS vào bảng BigQuery.
    ```py
