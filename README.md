@@ -6,7 +6,6 @@ Dự án này bao gồm việc thiết lập một pipeline dữ liệu với c�
 - **Cloud Composer**: Công cụ điều phối để quản lý pipeline.
 - **Google Cloud Storage (GCS)**: Dịch vụ lưu trữ cho các tệp CSV đã nén.
 - **BigQuery**: Kho dữ liệu để nhập và truy vấn dữ liệu.
-- **Data Fusion**: Để quản lý và giám sát pipeline dữ liệu.
 
 ### Xác định các nhiệm vụ:
 *Xem các thư viện trong file etl.py*
