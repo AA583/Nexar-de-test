@@ -84,6 +84,9 @@ Dự án này bao gồm việc thiết lập một pipeline dữ liệu với c�
       blob.upload_from_string(data_content, content_type='application/gzip')
    ```
 
+   - Kết quả: 
+   !["Kết quả upload GCS"](image/output_upload_storage.png)
+
 4. **Nhập Dữ Liệu Vào BigQuery**:
    - Tạo một bảng trong BigQuery.
    !["create table bigquery](image/create_table_BigQuery.png)
@@ -110,3 +113,9 @@ Dự án này bao gồm việc thiết lập một pipeline dữ liệu với c�
       )
    ```
 
+   - Kết quả:
+   !["Kết quả nhập import to BigQuery"](image/output_import_bigquery.png)
+
+## Hướng dẫn:
+
+1. **Clone repository**:
