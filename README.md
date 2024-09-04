@@ -58,7 +58,7 @@ Dự án này bao gồm việc thiết lập một pipeline dữ liệu với c�
 
 3. **Upload Lên Google Cloud Storage (GCS)**:  
    - Trước khi upload, tạo một bucket trong GCS để lưu trữ tệp đã nén.
-   
+   !(image/Create_bucket_cloud_storage.png)
    - Upload tệp CSV đã nén lên bucket GCS.
    ```py
    def upload_to_gcs(bucket_name, source_file_name, destination_blob_name):
