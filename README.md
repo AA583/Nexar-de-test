@@ -130,7 +130,7 @@ Dự án này bao gồm việc thiết lập một pipeline dữ liệu với c�
    !["Add role composer"](image/add_role_composer.png)
 
    - Tạo Composer Cloud:
-   !["Tạo Cloud Composer"](image/create_cloud_composer.png)
+   !["Tạo Cloud Composer"](image/create_composer.png)
 
 3. **Set job scheduler**
    - Truy cập Airflow thông qua màn hình Cloud Composer bên trên:
