@@ -122,3 +122,27 @@ Dự án này bao gồm việc thiết lập một pipeline dữ liệu với c�
 ```console
    git clone https://github.com/AA583/Nexar-de-test.git      
 ```
+2. **Tạo Cloud Composer**:
+   - Trước khi tạo Cloud Composer, cần tạo Service accounts:
+   !["Tạo Service account"](image/create_service_account.png)
+
+   - Add các role cần thiết cho composer:
+   !["Add role composer"](image/add_role_composer.png)
+
+   - Tạo Composer Cloud:
+   !["Tạo Cloud Composer"](image/create_cloud_composer.png)
+
+3. **Set job scheduler**
+   - Truy cập Airflow thông qua màn hình Cloud Composer bên trên:
+   !["Truy cập Airflow"](image/before_upload_dag.png)
+
+   - Upload file pipeline_dag.py lên folder dag trong bucket được tạo trong quá trình tạo composer:
+   !["Upload file pipeline_dag.py"](image/upload_pipeline_dag.png)
+
+   - Sau khi upload file pipeline_dag.py thì xuất hiện job:
+   !["Xuất hiện job"](image/job_in_dag_airflow.png)
+
+4. **DAG Pipeline**
+   !["DAG Pipeline"](image/dag_pipeline.png)
+
+*Câu 5 của em chưa hoàn thành được toàn bộ yêu cầu. Hệ thống gặp lỗi trong việc quản lý flow. Trước khi deploy, code đã được test trên local, vì vậy có kết quả upload trên GCS và table trong BigQuery ở trên*
