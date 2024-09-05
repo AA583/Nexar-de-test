@@ -145,4 +145,4 @@ Dự án này bao gồm việc thiết lập một pipeline dữ liệu với c�
 4. **DAG Pipeline**
    !["DAG Pipeline"](image/dag_pipeline.png)
 
-*Câu 5 của em chưa hoàn thành được toàn bộ yêu cầu. Hệ thống gặp lỗi trong việc quản lý flow. Trước khi deploy, code đã được test trên local, vì vậy có kết quả upload trên GCS và table trong BigQuery ở trên*
+*Câu 5 của em chưa hoàn thành được toàn bộ yêu cầu. Hệ thống gặp lỗi trong việc quản lý flow. Trước khi deploy, code đã được test trên local, vì vậy có kết quả upload trên GCS và table trong BigQuery ở trên.*
