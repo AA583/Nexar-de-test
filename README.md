@@ -119,3 +119,6 @@ Dự án này bao gồm việc thiết lập một pipeline dữ liệu với c�
 ## Hướng dẫn:
 
 1. **Clone repository**:
+```console
+   git clone https://github.com/AA583/Nexar-de-test.git      
+```
